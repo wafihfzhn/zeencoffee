@@ -1,0 +1,85 @@
+html {
+  margin: 0;
+}
+
+header {
+}
+
+header .logo {
+  padding-top: 30px;
+}
+
+header nav {
+  text-align: center;
+}
+
+header nav ul {
+  padding: 5px 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+header nav ul li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+}
+
+header nav ul li a {
+  padding: 0 10px;
+}
+
+section#beranda {
+  background-image: url("img/kopi.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section#galeri {
+  background-color: #242020;
+}
+
+iframe {
+  padding-bottom: 30px;
+}
+
+section#kontak {
+  background-color: #242020;
+  padding-bottom: 20px;
+}
+
+section#kontak p {
+  color: white;
+  padding: 30px auto;
+}
+
+h3 {
+  font-family: 'Galada', cursive;
+  padding: 10px 0;
+}
+
+.putih {
+  color: white;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: auto;
+  height: 70px;
+  background-color: ;
+  color: white;
+  font-size: 0.98em;
+}
+
+footer p {
+  color: black;
+  padding-top: 16px;
+}
+
